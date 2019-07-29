@@ -1,4 +1,10 @@
 $(function() {
+    $('.fh').click(function() {
+        $('html , body').animate({ scrollTop: 0 }, 'slow');
+    });
+
+
+
     $(".ssk").focus(function() {
         $(this).css({
             'outline': '#FFBA00 1px solid',
