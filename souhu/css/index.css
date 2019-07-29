@@ -777,3 +777,29 @@ em {
 
 
 /* 新闻右边完结 */
+
+.fh {
+    user-select: none;
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    background: #A7A7A7;
+    top: 500px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.fh:hover {
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    background: #666666;
+    top: 500px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+}
