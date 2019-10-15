@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<w-swiper list="{{banners}}"/>
+
+<w-recommends recommends="{{recommends}}" bind:imageLoad="imageLoad"/>
+
+<image src="../../assets/images/home/recommend_bg.jpg" mode="widthFix" style="width:100%;margin-top:20rpx;"/>
+
+<w-tab-control titles="{{titles}}" bind:itemclick="tabControlClick" 
+class="{{isTabFix?'fixed':''}}" id="tabControl" />
+<w-tab-control titles="{{titles}}" wx-if="{{isTabFix}}"/>
+
+<w-goods goods="{{goods[currentType].list}}"/>
+
+<w-back-top class="backTop" wx-if="{{showBackTop}}"/>

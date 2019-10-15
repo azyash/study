@@ -1,0 +1,16 @@
+/* components/w-tab-control/w-tab-control.wxss */
+.titles{
+  display: flex;
+}
+.titles view{
+  margin: 15rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.titles view text{
+ padding: 6rpx 8rpx;
+}
+.active{
+  color: #ff5777;
+  border-bottom: 10rpx solid #ff5777;
+}
