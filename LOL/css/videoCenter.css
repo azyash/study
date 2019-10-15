@@ -1,0 +1,365 @@
+.videoCenter {
+  position: relative;
+  width: 100%;
+  min-width: 1360px;
+  height: 600px;
+  background-color: #E3E2E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoCenter_center {
+  width: 1360px;
+  height: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <!-- 左栏 --> */
+
+.videoCenter_left {
+  position: relative;
+  width: 820px;
+  height: 460px;
+}
+
+/* <!-- 头部 --> */
+
+.videoCenter_left_top {
+  height: 37px;
+  position: relative;
+  display: flex;
+}
+
+.videoCenter_left_top h2 {
+  border-left: 5px solid #1DA6BA;
+  line-height: 37px;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.videoCenter_left_top ul {
+  position: relative;
+  width: 683px;
+  height: 37px;
+  border-bottom: 1px solid #D6D7D8;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.videoCenter_left_top ul li {
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.videoCenter_left_top ul li:nth-child(5) {
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  width: 70px;
+  font-size: 16px;
+}
+
+.videoCenter_left_top ul li>a {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.videoCenter_left_top .fontsc:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/tab-title-selected.png);
+  background-position: center center;
+  width: 0px;
+  height: 7px;
+  margin-left: 17px;
+  left: 0;
+  bottom: -13px;
+  transition: width .2s, left .2s, margin-left .2s;
+}
+
+.videoCenter_left_top .fontsc2:after {
+  width: 34px;
+  left: -17px;
+  margin-left: 17px;
+}
+
+.videoCenter_left_top .ydzy:after {
+  width: 67px!important;
+  left: -34px;
+  margin-left: 34px;
+}
+
+/* <!-- /头部/ --> */
+
+.videoCenter_left_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 820px;
+  height: 400px;
+}
+
+/* <!-- 内容 --> */
+
+.videoCenter_left_center ul {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoCenter_left_center ul li {
+  width: 195px;
+  height: 185px;
+}
+
+.videoCenter_left_center ul li:hover a {
+  color: #0DA0B4;
+}
+
+.videoImg {
+  position: relative;
+}
+
+.videoImg span {
+  position: absolute;
+  right: 10px;
+  top: 85px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.videoImg img {
+  cursor: pointer;
+  width: 195px;
+  height: 110px;
+}
+
+.viedoPresent {
+  position: relative;
+  width: 195px;
+  height: 75px;
+}
+
+.viedoPresent a {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 5px;
+  width: 180px;
+  overflow: hidden;
+  height: 42px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #424242;
+}
+
+.viedoPresent span:nth-child(2) {
+  position: absolute;
+  left: 9px;
+  bottom: 4px;
+  font-size: 12px;
+  color: #919091;
+}
+
+.viedoPresent span:nth-child(3) {
+  position: absolute;
+  right: 13px;
+  bottom: 4px;
+  font-size: 12px;
+  color: #919091;
+}
+
+/* <!-- /内容/ --> */
+
+/* <!-- /左栏/ --> */
+
+/* <!-- 右栏 --> */
+
+.videoCenter_right {
+  position: relative;
+  width: 500px;
+  height: 460px;
+}
+
+/* <!-- 头部 --> */
+
+.videoCenter_right_top {
+  height: 37px;
+  position: relative;
+  display: flex;
+}
+
+.videoCenter_right_top h2 {
+  line-height: 37px;
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.videoCenter_right_top ul {
+  position: relative;
+  width: 360px;
+  height: 37px;
+  border-bottom: 1px solid #D6D7D8;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.videoCenter_right_top ul li {
+  cursor: pointer;
+  letter-spacing: 1px;
+  width: 60px;
+  font-size: 16px;
+}
+
+.videoCenter_right_top ul li>a {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.videoCenter_right_top .fontsc:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/tab-title-selected.png);
+  background-position: center center;
+  width: 0px;
+  height: 7px;
+  margin-left: 17px;
+  left: 0;
+  bottom: -13px;
+  transition: width .2s, left .2s, margin-left .2s;
+}
+
+.videoCenter_right_top .fontsc2:after {
+  width: 34px;
+  left: -17px;
+  margin-left: 17px;
+}
+
+.videoCenter_right_top .ydzy:after {
+  width: 67px!important;
+}
+
+/* <!-- /头部/ --> */
+
+/* <!-- 轮播图 --> */
+
+.videoCenter_right_center {
+  position: absolute;
+  bottom: 50px;
+  width: 500px;
+  height: 340px;
+}
+
+.videoCenter_right_center ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 100%;
+}
+
+.videoCenter_right_center ul li {
+  position: relative;
+  display: flex;
+  width: 156px;
+  height: 100%;
+}
+
+.videoCenter_right_center ul li img {
+  display: block;
+  width: 156px;
+  height: 212px;
+}
+
+.videoCenter_right_center ul li a:nth-child(1) {
+  position: absolute;
+}
+
+.videoCenter_right_center ul li a:nth-child(1) p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+  top: 140px;
+}
+
+.videoCenter_right_center ul li a:nth-child(1) p:nth-child(3) {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 36px;
+  line-height: 18px;
+  position: absolute;
+  left: 0;
+  top: 169px;
+  box-sizing: border-box;
+  padding: 0 7px;
+}
+
+.videoCenter_right_center ul li a:nth-child(2) {
+  padding-left: 8px;
+  font-size: 14px;
+  color: #909191;
+  width: 120px;
+  height: 36px;
+  position: absolute;
+  top: 230px;
+}
+
+.videoCenter_right_center ul li a:nth-child(3) {
+  display: flex;
+  font-size: 12px;
+  color: #909191;
+  width: 156px;
+  height: 36px;
+  position: absolute;
+  margin-left: 8px;
+  top: 280px;
+}
+
+.videoCenter_right_center ul li a:nth-child(3) img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.videoCenter_right_center ul li a:nth-child(3) p {
+  position: relative;
+  top: 5px;
+  left: 8px;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+/* <!-- /轮播图/ --> */
+
+.videoCenter_right>a {
+  color: #BB9E74;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  width: 506px;
+  height: 50px;
+}
+
+/* <!-- /右栏/ --> *  /

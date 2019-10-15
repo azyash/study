@@ -1,0 +1,3 @@
+<!--pages/home.wxml-->
+<tab-bar  titles="{{['流行','新款','精选']}}"
+          bind:itemclick="activeClick"/>

@@ -1,0 +1,331 @@
+/* 小图标制作 */
+
+.icon-hot {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/topfoot-spr.png') no-repeat -376px -113px;
+  width: 14px;
+  height: 14px;
+}
+
+.icon-new {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/topfoot-spr.png') no-repeat -357px -113px;
+  width: 14px;
+  height: 14px;
+}
+
+.icon-search {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/topfoot-spr.png') no-repeat -381px -39px;
+  width: 23px;
+  height: 24px;
+}
+
+.icon-phone {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/topfoot-spr.png') no-repeat -357px -84px;
+  width: 16px;
+  height: 24px;
+}
+
+.icon-kk {
+  display: inline-block;
+  vertical-align: middle;
+  background: url('../img/topfoot-spr.png') no-repeat -304px -84px;
+  width: 48px;
+  height: 48px;
+}
+
+.icon-qp {
+  opacity: 0;
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 211px;
+  height: 178px;
+  position: absolute;
+  top: 60px;
+  right: 300px;
+  vertical-align: middle;
+  background: url('../img/topfoot-spr.png') no-repeat 0 0;
+  width: 211px;
+  height: 178px;
+}
+
+.icon-jt {
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -328px -99px;
+  width: 15px;
+  height: 9px;
+}
+
+.new>a:hover>i, .header_left_left>a:hover>i, .activity_column1_one_top a:hover>i, .icon-kkk a:hover>i:nth-child(2), .psshow>a:hover>i, .videoCenter_left_top a:hover>i, .icon-rmzjkkk:hover>i, .tournament_top a:hover>i {
+  animation: jtdh 1.5s ease .1s infinite;
+}
+
+@keyframes jtdh {
+  0% {
+    transform: translateX(0px)
+  }
+  15% {
+    transform: translateX(5px)
+  }
+  30% {
+    transform: translateX(0px)
+  }
+  45% {
+    transform: translateX(5px)
+  }
+  60% {
+    transform: translateX(0px)
+  }
+}
+
+.icon-activity {
+  background: url('../img/index-spr.png') no-repeat -193px -316px;
+  width: 118px;
+  height: 76px;
+}
+
+.icon-xsyd {
+  margin: 0 auto;
+  background: url('../img/comm-spr.png') no-repeat -244px -72px;
+  width: 20px;
+  height: 22px;
+}
+
+.icon-lb {
+  margin: 0 auto;
+  background: url('../img/comm-spr.png') no-repeat -285px -99px;
+  width: 18px;
+  height: 21px;
+}
+
+.icon-zxkf {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -316px -12px;
+  width: 22px;
+  height: 20px;
+}
+
+.icon-zxdt {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -219px -72px;
+  width: 20px;
+  height: 22px;
+}
+
+.icon-yxzl {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -343px -12px;
+  width: 23px;
+  height: 19px;
+}
+
+.icon-xgzd {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -193px -72px;
+  width: 21px;
+  height: 22px;
+}
+
+.icon-wxbd {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -193px -46px;
+  width: 22px;
+  height: 21px;
+}
+
+.icon-glzx {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -371px -12px;
+  width: 22px;
+  height: 19px;
+}
+
+.icon-lolyz {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -274px -46px;
+  width: 22px;
+  height: 19px;
+}
+
+.icon-wjsq {
+  margin: 0 8px 0 20px;
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -231px -12px;
+  width: 22px;
+  height: 23px;
+}
+
+.icon-activitykk {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: url('../img/comm-spr.png') no-repeat 0 0;
+  width: 188px;
+  height: 200px;
+}
+
+.fx {
+  display: flex;
+  opacity: 0;
+  padding: 5px 10px 0 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 172px;
+  height: 202px;
+  background: url(../img/dark70-bg-repeat.png) repeat;
+  transition: all .3s ease .1s;
+}
+
+.fx h3 {
+  font-size: 16px;
+  color: #C5AB86;
+}
+
+.fx p {
+  text-align: center;
+  color: #9D9C9C;
+}
+
+.fx p:first {
+  padding-left: 5px;
+  color: #9D9C9C;
+}
+
+.icon-kkk {
+  display: inline-block;
+  background: url('../img/index-spr.png') no-repeat -193px -253px;
+  width: 239px;
+  height: 58px;
+}
+
+.icon-kkksp_right {
+  display: inline-block;
+  background: url('../img/index-spr.png') no-repeat -506px -226px;
+  width: 20px;
+  height: 9px;
+  margin-left: 10px;
+}
+
+.icon-kkksp_left {
+  display: inline-block;
+  background: url('../img/index-spr.png') no-repeat -531px -226px;
+  width: 20px;
+  height: 9px;
+  margin-right: 10px;
+}
+
+.icon-kkksp_jt {
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -369px -46px;
+  width: 15px;
+  height: 9px;
+  margin-left: 2px;
+}
+
+.icon-jsjt {
+  display: inline-block;
+  background: url('../img/comm-spr.png') no-repeat -364px -72px;
+  width: 15px;
+  height: 9px;
+  margin-left: 2px;
+}
+
+.pic-mask-0 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url('../img/pic-mask-0.png') repeat;
+  width: 100%;
+  height: 133px;
+}
+
+.icon-pskkk {
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: url('../img/index-spr.png') no-repeat 0 0;
+  width: 396px;
+  height: 248px;
+}
+
+.icon-kfzkkk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 3px;
+  left: 3px;
+  position: absolute;
+  background: url('../img/index-spr.png') no-repeat -401px 0;
+  width: 237px;
+  height: 174px;
+}
+
+.icon-rmzjkkk {
+  display: inline-block;
+  background: url('../img/index-spr.png') no-repeat 0 -522px;
+  width: 506px;
+  height: 50px;
+}
+
+.icon-dd {
+  float: left;
+  display: block;
+  margin-right: 10px;
+  background: url('../img/index-spr.png') no-repeat -406px -316px;
+  width: 20px;
+  height: 19px;
+}
+
+.icon-acdd {
+  float: left;
+  display: block;
+  margin-right: 10px;
+  background: url('../img/index-spr.png') no-repeat -431px -316px;
+  width: 20px;
+  height: 19px;
+  transition: transform .2s ease .1s;
+}
+
+.icon-acddd {
+  float: left;
+  display: block;
+  margin-right: 10px;
+  background: url('../img/index-spr.png') no-repeat -431px -316px;
+  width: 20px;
+  height: 19px;
+  transition: transform .2s ease .1s;
+}
+
+.fontscc {
+  position: relative;
+  font-weight: 700!important;
+  color: #1da6ba!important;
+}
+
+.icon-searchtwo {
+  background: url('../img/index-spr.png') no-repeat -401px -226px;
+  width: 22px;
+  height: 21px;
+}
+
+/* /小图标制作 */

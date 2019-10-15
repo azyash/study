@@ -1,0 +1,101 @@
+.herodata {
+  margin-top: 100px;
+  position: relative;
+  padding-top: 30px;
+  width: 100%;
+  min-width: 1360px;
+  height: 600px;
+  background-color: #E3E2E2;
+}
+
+/* 头部 */
+
+.herodata_top {
+  margin: 30px auto;
+  border-left: 5px solid #1DA6BA;
+  width: 1360px;
+  height: 37px;
+  display: flex;
+}
+
+.herodata_top h2 {
+  line-height: 37px;
+  padding-left: 10px;
+  width: 100px;
+  font-size: 24px;
+}
+
+.herodata_top ul {
+  display: flex;
+  height: 35px;
+  margin-left: 20px;
+}
+
+.herodata_top ul li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  height: 35px;
+  padding-right: 50px;
+}
+
+.herodata_top ul li span {
+  cursor: pointer;
+}
+
+/* 头部  end*/
+
+.swiper-container {
+  margin: 10px auto;
+  width: 1360px;
+  height: 440px;
+}
+
+.swiper-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1360px;
+}
+
+.swiper-container ul li {
+  margin-right: 30px;
+  cursor: pointer;
+  position: relative;
+  width: 66px;
+  height: 100px;
+}
+
+.swiper-container ul li h2 {
+  width: 66px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.swiper-container ul li>img {
+  text-align: center;
+  width: 66px;
+  height: 66px;
+}
+
+.swiper-container ul li>div {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66px;
+  height: 66px;
+  background: url(../img/dark70-bg-repeat.png) repeat;
+}
+
+.swiper-container ul li:hover>div {
+  display: flex;
+}
+
+.swiper-container ul li:hover>h2 {
+  color: #1DA6BA;
+}

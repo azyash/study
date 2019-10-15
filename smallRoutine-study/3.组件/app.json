@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/image/image",
+    "pages/input/input"
+  ],
+  "sitemapLocation": "sitemap17.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "text bottom",
+        "iconPath": "assetcs/tabbar/category.png",
+        "selectedIconPath": "assetcs/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "view",
+        "iconPath": "assetcs/tabbar/category.png",
+        "selectedIconPath": "assetcs/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/image/image",
+        "text": "image",
+        "iconPath": "assetcs/tabbar/category.png",
+        "selectedIconPath": "assetcs/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/input/input",
+        "text": "input",
+        "iconPath": "assetcs/tabbar/category.png",
+        "selectedIconPath": "assetcs/tabbar/category_active.png"
+      }
+    ]
+  }
+}

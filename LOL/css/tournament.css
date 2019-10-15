@@ -1,0 +1,450 @@
+.tournament {
+  width: 1360px;
+  margin: 50px auto;
+  height: 600px;
+}
+
+/* <!-- 头部 --> */
+
+.tournament_top {
+  border-left: 5px solid #1DA6BA;
+  height: 37px;
+  position: relative;
+  display: flex;
+}
+
+.tournament_top h2 {
+  line-height: 37px;
+  padding-left: 10px;
+  width: 100px;
+  font-size: 24px;
+}
+
+.tournament_top ul {
+  box-sizing: border-box;
+  position: relative;
+  width: 1230px;
+  height: 37px;
+  border-bottom: 1px solid #E0E2E2;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.tournament_top ul li {
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  width: 140px;
+  font-size: 16px;
+}
+
+.tournament_top ul li>a {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.tournament_top .fontsc:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/tab-title-selected.png);
+  background-position: center center;
+  width: 0px;
+  left: 0px;
+  margin-left: 52px;
+  height: 7px;
+  bottom: -13px;
+  transition: width .2s, left .2s, margin-left .2s;
+}
+
+.tournament_top .fontsc2:after {
+  width: 104px;
+  left: -52px;
+  margin-left: 52px;
+}
+
+.tournament_top .qqzjs:after {
+  width: 0px;
+}
+
+.tournament_top .qqzjs:after {
+  width: 134px;
+  left: -52px;
+  margin-left: 52px;
+}
+
+.tournament_top dl dt:nth-child(1) {
+  position: absolute;
+  top: 0;
+  right: 61px;
+  width: auto;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #676767;
+}
+
+.tournament_top dl dt:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  display: block;
+  width: auto;
+  height: 35px;
+  font-size: 12px;
+  color: #7ea1a6;
+  line-height: 35px;
+}
+
+/* <!-- /头部/ --> */
+
+/* <!-- 栏目一 --> */
+
+.tournament_columm1 {
+  position: relative;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  height: 200px;
+  width: 1360px;
+}
+
+.tournament_columm1 ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tournament_columm1 ul li {
+  background: white;
+  position: relative;
+  width: 19%;
+  height: 100%;
+}
+
+.tournament_columm1 ul li .topbar {
+  z-index: 99;
+  display: block;
+  background-color: #b2b2b2;
+  width: 100%;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.tournament_columm1 ul li .topbar p {
+  background: url(../img/gamelist-top-ware.png) repeat-x 0 0;
+  width: 100%;
+  height: 28px;
+}
+
+.tournament_columm1 ul li .topbar p span {
+  line-height: 28px;
+  color: white;
+  font-size: 16px;
+}
+
+.tournament_columm1 ul li .topbar p span:nth-child(1) {
+  float: left;
+  font-weight: 700;
+  margin-left: 12px;
+  position: relative;
+}
+
+.tournament_columm1 ul li .topbar p span:nth-child(2) {
+  float: right;
+  margin-right: 12px;
+  position: relative;
+}
+
+.tournament_columm1 ul li .topbar p span:nth-child(3) {
+  float: right;
+  margin-right: 14px;
+  position: relative;
+}
+
+.tournament_columm1 ul li .content {
+  position: relative;
+  width: 100%;
+  height: 75%;
+}
+
+.tournament_columm1 ul li .content>div:nth-child(1) {
+  position: absolute;
+  top: 50px;
+  left: 10%;
+}
+
+.tournament_columm1 ul li .content>span {
+  text-align: center;
+  width: 100px;
+  font-size: 34px;
+  font-weight: 600;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.tournament_columm1 ul li .content>span a {
+  color: #171717;
+}
+
+.button {
+  display: block;
+  width: 86px;
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  border: 1px #727272 solid;
+  color: #727272;
+  position: absolute;
+  top: 105px;
+  left: 50%;
+  margin-left: -43px;
+  transition: background-color .2s;
+}
+
+.button:hover {
+  color: white;
+  background-color: #727272;
+}
+
+.tournament_columm1 ul li .content>div:nth-child(3) {
+  position: absolute;
+  top: 50px;
+  right: 10%;
+}
+
+.tournament_columm1 .part {
+  text-align: center;
+  width: 60px;
+  height: 70px;
+}
+
+.tournament_columm1 .part img {
+  width: 50px;
+  height: 50px;
+}
+
+.tournament_columm1 .part h2 {
+  text-align: center;
+}
+
+.tournament_columm1 ul li>div:nth-child(3) p {
+  text-align: center;
+}
+
+/* <!-- /栏目一/ --> */
+
+/* <!-- 栏目二 --> */
+
+.tournament_columm2 {
+  overflow: hidden;
+  width: 820px;
+  float: left;
+}
+
+.tournament_columm2_top {
+  height: 37px;
+  position: relative;
+  display: flex;
+}
+
+.tournament_columm2_top h2 {
+  line-height: 37px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.tournament_columm2_top ul {
+  position: relative;
+  width: 683px;
+  height: 37px;
+  border-bottom: 1px solid #D6D7D8;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.tournament_columm2_top ul li {
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.tournament_columm2_top ul li:nth-child(5) {
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  width: 70px;
+  font-size: 16px;
+}
+
+.tournament_columm2_top ul li>a {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.tournament_columm2_top .fontsc:after {
+  content: '';
+  position: absolute;
+  background-image: url(../img/tab-title-selected.png);
+  background-position: center center;
+  width: 0px;
+  height: 7px;
+  margin-left: 17px;
+  left: 0;
+  bottom: -13px;
+  transition: width .2s, left .2s, margin-left .2s;
+}
+
+.tournament_columm2_top .fontsc2:after {
+  width: 34px;
+  left: -17px;
+  margin-left: 17px;
+}
+
+.videoCenter_left_top .ydzy:after {
+  width: 67px!important;
+  left: -34px;
+  margin-left: 34px;
+}
+
+.tournament_columm2_detailed {
+  position: relative;
+  width: 820px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.tournament_columm2_detailed ul {
+  width: 820px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tournament_columm2_detailed ul li {
+  position: relative;
+  width: 150px;
+  height: 250px;
+  background: #fff;
+}
+
+.tournament_columm2_detailed ul li span:nth-child(1) {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+  line-height: 1;
+  font-size: 24px;
+  color: #7b7b7b;
+}
+
+.tournament_columm2_detailed ul li img:nth-child(2) {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.tournament_columm2_detailed ul li img:nth-child(3) {
+  background: -webkit-linear-gradient(top, #fefefe, #fefefe, #8a8a8a);
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+}
+
+.tournament_columm2_detailed ul li span:nth-child(4) {
+  width: 150px;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  line-height: 1;
+  font-size: 24px;
+  color: #7b7b7b;
+}
+
+/* <!-- /栏目二/ --> */
+
+/* <!-- 栏目三 --> */
+
+.tournament_columm3 {
+  float: right;
+  width: 500px;
+  height: 250px;
+}
+
+.tournament_columm3_top {
+  height: 37px;
+  position: relative;
+  display: flex;
+}
+
+.tournament_columm3_top h2 {
+  line-height: 37px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.tournament_list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 500px;
+  height: 30px;
+  background: #E0E0E0;
+}
+
+.tournament_list li:nth-child(1), .tournament_list li:nth-child(3), .tournament_list li:nth-child(4) {
+  flex: 1
+}
+
+.tournament_list li:nth-child(2) {
+  flex: 2;
+  text-align: left;
+}
+
+.swiper_list {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  width: 480px;
+  height: 40px;
+  border-bottom: 1px solid #E0E2E2;
+}
+
+.swiper_list li:nth-child(1), .swiper_list li:nth-child(3), .swiper_list li:nth-child(4) {
+  flex: 1
+}
+
+.swiper_list li:nth-child(2) {
+  flex: 2;
+  text-align: left;
+}
+
+.list-swiper-container {
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+  height: 220px;
+}
+
+/* <!-- /栏目三/ --> */

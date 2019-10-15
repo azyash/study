@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about"
+  ],
+  "sitemapLocation": "sitemap17.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "购物车",
+        "iconPath": "assetcs/tabbar/cart.png",
+        "selectedIconPath": "assetcs/tabbar/cart_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "更多",
+        "iconPath": "assetcs/tabbar/category.png",
+        "selectedIconPath": "assetcs/tabbar/category_active.png"
+      }
+    ]
+  }
+}
